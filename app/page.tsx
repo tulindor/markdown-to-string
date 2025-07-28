@@ -23,7 +23,7 @@ const [text, setText] = useState("");
     <div>
       <main className="max-w-7xl mx-auto px-4 py-12">
         <div>
-          <p className={styles.title}>Ingresá el testamento</p>
+          <p className={styles.title}>Editor de markdown</p>
           {isClient && <MarkdownEditor value={text} onChange={setText} />}
         </div>
         <p className={styles.title}>String para VTEX 💪</p>
